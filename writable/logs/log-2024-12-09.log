@@ -1,0 +1,98 @@
+CRITICAL - 2024-12-09 19:09:21 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: auth/login]
+in APPPATH\Controllers\AuthController.php on line 58.
+ 1 APPPATH\Controllers\AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-09 19:10:27 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: auth/login]
+in APPPATH\Controllers\AuthController.php on line 58.
+ 1 APPPATH\Controllers\AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-09 19:10:30 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: auth/login]
+in APPPATH\Controllers\AuthController.php on line 58.
+ 1 APPPATH\Controllers\AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-09 19:13:11 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: auth/login]
+in APPPATH\Controllers\AuthController.php on line 56.
+ 1 APPPATH\Controllers\AuthController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-09 19:13:29 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: auth/login]
+in APPPATH\Controllers\AuthController.php on line 56.
+ 1 APPPATH\Controllers\AuthController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-09 19:13:37 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: auth/login]
+in APPPATH\Controllers\AuthController.php on line 56.
+ 1 APPPATH\Controllers\AuthController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-09 19:16:43 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: auth/login]
+in APPPATH\Controllers\AuthController.php on line 56.
+ 1 APPPATH\Controllers\AuthController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+INFO - 2024-12-09 19:43:44 --> Login payload: {"email":"yerrouihel@gmail.com","password":"yassir00"}
+INFO - 2024-12-09 19:43:44 --> Fetched user: {"email":"yerrouihel@gmail.com","name":"yassir","surname":"errouihel","password":"yassir00","role":"admin","number":"0612121212"}
+INFO - 2024-12-09 20:03:38 --> Login payload: {"email":"yerrouihel@gmail.com","password":"yassir00"}
+INFO - 2024-12-09 20:03:38 --> Fetched user: {"email":"yerrouihel@gmail.com","name":"yassir","surname":"errouihel","password":"yassir00","role":"admin","number":"0612121212"}
+INFO - 2024-12-09 20:04:19 --> Login payload: {"email":"yerrouihel@gmail.com","password":"yassir00"}
+INFO - 2024-12-09 20:04:19 --> Fetched user: {"email":"yerrouihel@gmail.com","name":"yassir","surname":"errouihel","password":"$2y$10$6Su0y4xNjQX4rdJaFi0ZYeG\/4eH4WyTmBF\/u9ts\/88SKWoqh6Vw0y","role":"admin","number":"0612121212"}
+INFO - 2024-12-09 20:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-09 20:06:48 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: auth/signup]
+in APPPATH\Controllers\AuthController.php on line 29.
+ 1 APPPATH\Controllers\AuthController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+INFO - 2024-12-09 20:41:16 --> Login payload: {"email":"yerrouihel@gmail.com","password":"yassir00"}
+INFO - 2024-12-09 20:41:16 --> Fetched user: {"email":"yerrouihel@gmail.com","name":"yassir","surname":"errouihel","password":"$2y$10$6Su0y4xNjQX4rdJaFi0ZYeG\/4eH4WyTmBF\/u9ts\/88SKWoqh6Vw0y","role":"admin","number":"0612121212"}
+INFO - 2024-12-09 20:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

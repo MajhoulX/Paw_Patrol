@@ -1,0 +1,36 @@
+CRITICAL - 2024-12-03 16:00:12 --> Error: Class "Codeigniter\Model" not found
+[Method: GET, Route: animals]
+in APPPATH\Models\Animals.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ProjectIG\\app\\Models\\Animals.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Animals')
+ 4 APPPATH\Controllers\AnimalController.php(44): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Animals')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AnimalController->getAnimals()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AnimalController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-03 16:58:14 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: auth/signup]
+in APPPATH\Controllers\AuthController.php on line 29.
+ 1 APPPATH\Controllers\AuthController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
+CRITICAL - 2024-12-03 17:02:16 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: auth/signup]
+in APPPATH\Controllers\AuthController.php on line 29.
+ 1 APPPATH\Controllers\AuthController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\ProjectIG\\app\\Controllers\\AuthController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->signup()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ProjectIG\\public\\index.php')
