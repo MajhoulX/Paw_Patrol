@@ -89,7 +89,6 @@ class AnimalController extends BaseController
             'picture' => $fileBlob,
         ];
 
-        // Insert and handle errors
         if ($this->animalModel->insert($animalData)) {
             return $this->response->setJSON(['message' => 'Animal created successfully']);
         } else {

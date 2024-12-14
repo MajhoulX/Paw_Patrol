@@ -71,7 +71,6 @@ class AuthController extends BaseController
         $userModel = new UserModel();
         $user = $userModel->where('email', $data['email'])->first();
 
-        // Log the user data fetched from the database
         log_message('info', 'Fetched user: ' . json_encode($user));
 
         if ($user && password_verify($data['password'], $user['password'])) {
@@ -132,8 +131,8 @@ class AuthController extends BaseController
     }
     public function hashPasswordForUser()
 {
-    $email = 'yerrouihel@gmail.com'; // Replace with the target email
-    $plainPassword = 'yassir00'; // Replace with the plain password
+    $email = 'yerrouihel@gmail.com'; 
+    $plainPassword = 'yassir00'; 
 
     $hashedPassword = password_hash($plainPassword, PASSWORD_BCRYPT);
 
